@@ -33,7 +33,7 @@ describe "/bye", ->
         params:
           from: "TESTFROM"
 
-      message = "Fuckity bye!"
+      message = "Forkity bye!"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

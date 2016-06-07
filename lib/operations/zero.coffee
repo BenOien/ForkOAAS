@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/zero/:from', (req, res) ->
-      message = "Zero, thats the number of fucks I give."
+      message = "Zero, thats the number of forks I give."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

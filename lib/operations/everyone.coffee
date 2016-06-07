@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/everyone/:from', (req, res) ->
-      message = "Everyone can go and fuck off."
+      message = "Everyone can go and fork off."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

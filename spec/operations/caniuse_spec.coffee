@@ -35,7 +35,7 @@ describe "/caniuse", ->
           tool: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Can you use #{req.params.tool}? Fuck no!"
+      message = "Can you use #{req.params.tool}? Fork no!"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

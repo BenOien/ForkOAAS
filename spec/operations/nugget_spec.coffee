@@ -35,7 +35,7 @@ describe "/nugget", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Well #{req.params.name}, aren't you a shining example of a rancid fuck-nugget."
+      message = "Well #{req.params.name}, aren't you a shining example of a rancid fork-nugget."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

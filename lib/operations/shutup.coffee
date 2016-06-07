@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/shutup/:name/:from', (req, res) ->
-      message = "#{req.params.name}, shut the fuck up."
+      message = "#{req.params.name}, shut the fork up."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

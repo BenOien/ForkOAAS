@@ -33,7 +33,7 @@ describe "/single", ->
         params:
           from: "TESTFROM"
 
-      message = "Not a single fuck was given."
+      message = "Not a single fork was given."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

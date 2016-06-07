@@ -62,7 +62,7 @@ module.exports = class FOAAS
     @app.options "*", (req, res) ->
       res.end()
 
-    # Final case, send 622 All The Fucks
+    # Final case, send 622 All The Forks
     @app.use @send622
     
     # Renderers
@@ -73,7 +73,7 @@ module.exports = class FOAAS
     newrelic.setIgnoreTransaction(true)
 
     res.status(622)
-    @output(req, res, "622 - All The Fucks", 'Server invites you to consider the truly monumental amount of fucks it couldn\'t give about your request.')
+    @output(req, res, "622 - All The Forks", 'Server invites you to consider the truly monumental amount of forks it couldn\'t give about your request.')
 
   sendIndex: (req, res) ->
     res.sendfile("./public/index.html")
@@ -109,7 +109,7 @@ module.exports = class FOAAS
 
     # Default Operation
     router.get '/:thing/:from', (req, res) =>
-      message = "Fuck #{req.params.thing}."
+      message = "Fork #{req.params.thing}."
       subtitle = "- #{req.params.from}"
       @output(req, res, message, subtitle)
 

@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/outside/:name/:from', (req, res) ->
-      message = "#{req.params.name}, why don't you go outside and play hide-and-go-fuck-yourself?"
+      message = "#{req.params.name}, why don't you go outside and play hide-and-go-fork-yourself?"
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

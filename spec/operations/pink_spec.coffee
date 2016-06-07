@@ -33,7 +33,7 @@ describe "/pink", ->
         params:
           from: "TESTFROM"
 
-      message = "Well, Fuck me pink."
+      message = "Well, Fork me pink."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

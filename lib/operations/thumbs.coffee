@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/thumbs/:name/:from', (req, res) ->
-      message = "Who has two thumbs and doesn't give a fuck? #{req.params. name}."
+      message = "Who has two thumbs and doesn't give a fork? #{req.params. name}."
       subtitle = "- #{req.params. from}"
       output(req, res, message, subtitle)

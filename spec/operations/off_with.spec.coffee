@@ -2,7 +2,7 @@ operation = require '../../lib/operations/off_with'
 
 describe "/off_with", ->
   it "should have the correct name", ->
-    expect(operation.name).toEqual('Fuck Off With')
+    expect(operation.name).toEqual('Fork Off With')
 
   it "should have the correct url", ->
     expect(operation.url).toEqual('/off-with/:behavior/:from')
@@ -39,6 +39,6 @@ describe "/off_with", ->
       expect(output).toHaveBeenCalledWith(
         req,
         'RES',
-        "Fuck off with the constant stupid emails to our team that we don't give a shit about!!",
+        "Fork off with the constant stupid emails to our team that we don't give a shit about!!",
         '- Bubbles'
       )

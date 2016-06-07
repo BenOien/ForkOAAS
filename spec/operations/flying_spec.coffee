@@ -33,7 +33,7 @@ describe "/flying", ->
         params:
           from: "TESTFROM"
 
-      message = "I don't give a flying fuck."
+      message = "I don't give a flying fork."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

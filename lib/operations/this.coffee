@@ -1,5 +1,5 @@
 module.exports =
-  name: "Fuck This"
+  name: "Fork This"
   url: '/this/:from'
   fields: [
     { name: 'From', field: 'from'}
@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/this/:from', (req, res) ->
-      message = "Fuck this."
+      message = "Fork this."
       subtitle = "- #{req.params. from}"
       output(req, res, message, subtitle)

@@ -2,7 +2,7 @@ operation = require '../../lib/operations/anyway'
 
 describe "/anyway", ->
   it "should have the correct name", ->
-    expect(operation.name).toEqual('Who the fuck are you anyway')
+    expect(operation.name).toEqual('Who the fork are you anyway')
 
   it "should have the correct url", ->
     expect(operation.url).toEqual('/anyway/:company/:from')
@@ -35,7 +35,7 @@ describe "/anyway", ->
           company: "TESTCOMPANY"
           from: "TESTFROM"
 
-      message = "Who the fuck are you anyway, #{req.params.company}, why are you stirring up so much trouble, and, who pays you?"
+      message = "Who the fork are you anyway, #{req.params.company}, why are you stirring up so much trouble, and, who pays you?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

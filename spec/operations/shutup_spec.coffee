@@ -35,7 +35,7 @@ describe "/shutup", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "#{req.params.name}, shut the fuck up."
+      message = "#{req.params.name}, shut the fork up."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

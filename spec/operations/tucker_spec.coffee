@@ -33,7 +33,7 @@ describe "/tucker", ->
         params:
           from: "TESTFROM"
 
-      message = "Come the fuck in or fuck the fuck off."
+      message = "Come the fork in or fork the fork off."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

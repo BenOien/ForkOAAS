@@ -37,6 +37,6 @@ describe "/zayn", ->
       expect(output).toHaveBeenCalledWith(
         req,
         'RES',
-        'Ask me if I give a motherfuck ?!!',
+        'Ask me if I give a motherfork ?!!',
         '- TESTFROM'
       )

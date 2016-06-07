@@ -33,7 +33,7 @@ describe "/no", ->
         params:
           from: "TESTFROM"
 
-      message = "No fucks given."
+      message = "No forks given."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

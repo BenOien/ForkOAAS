@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/yoda/:name/:from', (req, res) ->
-      message = "Fuck off, you must, #{req.params.name}."
+      message = "Fork off, you must, #{req.params.name}."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

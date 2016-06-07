@@ -33,7 +33,7 @@ describe "/because", ->
         params:
           from: "TESTFROM"
 
-      message = "Why? Because Fuck you, that's why."
+      message = "Why? Because Fork you, that's why."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

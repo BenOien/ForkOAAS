@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/retard/:from', (req, res) ->
-      message = "You Fucktard!"
+      message = "You Forktard!"
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

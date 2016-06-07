@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/look/:name/:from', (req, res) ->
-      message = "#{req.params.name}, do I look like I give a fuck?"
+      message = "#{req.params.name}, do I look like I give a fork?"
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

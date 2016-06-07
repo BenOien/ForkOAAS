@@ -33,7 +33,7 @@ describe "/give", ->
         params:
           from: "TESTFROM"
 
-      message = "I give zero fucks."
+      message = "I give zero forks."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

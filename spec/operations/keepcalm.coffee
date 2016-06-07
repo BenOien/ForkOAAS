@@ -35,7 +35,7 @@ describe "/keepcalm", ->
 					reaction: "TESTREACTION"
 					from: "TESTFROM"
 
-			message = "Keep the fuck calm and #{req.params.reaction}!"
+			message = "Keep the fork calm and #{req.params.reaction}!"
 			subtitle = "- #{req.params.from}"
 
 			func(req,'RES')

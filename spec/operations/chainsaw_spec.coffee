@@ -35,7 +35,7 @@ describe "/chainsaw", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Fuck me gently with a chainsaw, #{req.params.name}. Do I look like Mother Teresa?"
+      message = "Fork me gently with a chainsaw, #{req.params.name}. Do I look like Mother Teresa?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

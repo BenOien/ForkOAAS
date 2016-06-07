@@ -33,7 +33,7 @@ describe "/looking", ->
         params:
           from: "TESTFROM"
 
-      message = "Looking for a fuck to give."
+      message = "Looking for a fork to give."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

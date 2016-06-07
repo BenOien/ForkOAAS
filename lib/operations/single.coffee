@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/single/:from', (req, res) ->
-      message = "Not a single fuck was given."
+      message = "Not a single fork was given."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

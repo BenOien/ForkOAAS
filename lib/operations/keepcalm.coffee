@@ -8,6 +8,6 @@ module.exports =
 
 	register: (app, output) ->
 		app.get '/keepcalm/:reaction/:from', (req, res) ->
-			message = "Keep the fuck calm and #{req.params.reaction}!"
+			message = "Keep the fork calm and #{req.params.reaction}!"
 			subtitle = "- #{req.params.from}"
 			output(req, res, message, subtitle)

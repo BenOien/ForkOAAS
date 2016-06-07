@@ -37,7 +37,7 @@ describe "/dosomething", ->
           something: "TESTITEM"
           from: "TESTFROM"
 
-      message = "#{req.params.do} the fucking #{req.params.something}!"
+      message = "#{req.params.do} the forking #{req.params.something}!"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

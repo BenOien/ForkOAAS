@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/bus/:name/:from', (req, res) ->
-      message = "Christ on a bendy-bus, #{req.params.name}, don't be such a fucking faff-arse."
+      message = "Christ on a bendy-bus, #{req.params.name}, don't be such a forking faff-arse."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

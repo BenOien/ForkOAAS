@@ -33,7 +33,7 @@ describe "/family", ->
         params:
           from: "TESTFROM"
 
-      message = "Fuck you, your whole family, your pets, and your feces."
+      message = "Fork you, your whole family, your pets, and your feces."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

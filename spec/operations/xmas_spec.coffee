@@ -35,7 +35,7 @@ describe "/xmas", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Merry Fucking Christmas, #{req.params.name}."
+      message = "Merry Forking Christmas, #{req.params.name}."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

@@ -35,7 +35,7 @@ describe "/pulp", ->
           language: "English"
           from: "Jules Winnfield"
 
-      message = "#{req.params.language}, motherfucker, do you speak it?"
+      message = "#{req.params.language}, motherforker, do you speak it?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

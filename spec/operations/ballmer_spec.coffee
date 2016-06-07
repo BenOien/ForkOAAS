@@ -36,7 +36,7 @@ describe "/ballmer", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Fucking #{req.params.name} is a fucking pussy. I'm going to fucking bury that guy, I have done it before, and I will do it again. I'm going to fucking kill #{req.params.company}."
+      message = "Forking #{req.params.name} is a forking pussy. I'm going to forking bury that guy, I have done it before, and I will do it again. I'm going to forking kill #{req.params.company}."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

@@ -1,13 +1,12 @@
-# FOAAS
+# ForkOAAS
 
 0.1.9
 
-[![Build Status](https://travis-ci.org/tomdionysus/foaas.svg?branch=master)](https://travis-ci.org/tomdionysus/foaas)
-[![Dependency Status](https://gemnasium.com/tomdionysus/foaas.svg)](https://gemnasium.com/tomdionysus/foaas)
+ForkOAAS (Fork Off As A Service) - FOAAS for forks sake.
+   Provides a modern, RESTful, scalable solution to the common problem of telling people to fork off.
+   Forked by PrimeKang with only the tiniest of forks given for supporting it.
 
-FOAAS (Fuck Off As A Service) provides a modern, RESTful, scalable solution to the common problem of telling people to fuck off.
-
-Please see http://foaas.com for API documentation and examples.
+Please see http://foaas.com for the parent project FOAAS.
 
 # Installation
 
@@ -22,6 +21,8 @@ Please see http://foaas.com for API documentation and examples.
 	npm test
 
 # Clients
+
+Sorry, there are no forking clients. Here are links to FOAAS clients though! Maybe they work?
 
 API clients are available in a number of languages:
 
@@ -39,6 +40,10 @@ API clients are available in a number of languages:
 
 # Integrate FOAAS
 
+No work has been done to integrate ForkOAAS. 
+
+The parent project FOAAS is on the following platforms.
+
 | Platform/Software | Name                                                                         |
 |:------------------|:-----------------------------------------------------------------------------|
 | Hubot				| https://github.com/github/hubot-scripts/blob/master/src/scripts/FOAAS.coffee |
@@ -46,6 +51,8 @@ API clients are available in a number of languages:
 | TelegramBot | https://github.com/rajanand02/TelegramFoaasBot |
 
 # Contributing
+
+Please consider contributing to the parent FOAAS project.
 
 ## Adding new operations
 

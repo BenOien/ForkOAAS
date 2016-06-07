@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/caniuse/:tool/:from', (req, res) ->
-      message = "Can you use #{req.params.tool}? Fuck no!"
+      message = "Can you use #{req.params.tool}? Fork no!"
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

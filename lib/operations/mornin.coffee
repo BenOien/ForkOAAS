@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/mornin/:from', (req, res) ->
-      message = "Happy fuckin' Mornin'!"
+      message = "Happy forkin' Mornin'!"
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

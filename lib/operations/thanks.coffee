@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/thanks/:from', (req, res) ->
-      message = "Fuck you very much."
+      message = "Fork you very much."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

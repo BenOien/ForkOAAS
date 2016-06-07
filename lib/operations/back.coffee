@@ -1,5 +1,5 @@
 module.exports = 
-  name: "Back the fuck off"
+  name: "Back the fork off"
   url: '/back/:name/:from'
   fields: [
     { name: 'Name', field: 'name'}
@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/back/:name/:from', (req, res) ->
-      message = "#{req.params.name}, back the fuck off."
+      message = "#{req.params.name}, back the fork off."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

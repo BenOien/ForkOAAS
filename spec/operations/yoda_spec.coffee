@@ -35,7 +35,7 @@ describe "/yoda", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Fuck off, you must, #{req.params.name}."
+      message = "Fork off, you must, #{req.params.name}."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

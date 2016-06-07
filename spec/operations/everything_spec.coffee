@@ -33,7 +33,7 @@ describe "/everything", ->
         params:
           from: "TESTFROM"
 
-      message = "Fuck everything."
+      message = "Fork everything."
       subtitle = "- #{req.params. from}"
 
       func(req,'RES')

@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/donut/:name/:from', (req, res) ->
-      message = "#{req.params.name}, go and take a flying fuck at a rolling donut."
+      message = "#{req.params.name}, go and take a flying fork at a rolling donut."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

@@ -35,7 +35,7 @@ describe "/look", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "#{req.params.name}, do I look like I give a fuck?"
+      message = "#{req.params.name}, do I look like I give a fork?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

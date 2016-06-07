@@ -1,7 +1,7 @@
 {
   "name": "foaas",
   "version": "1.0.0",
-  "description": "Fuck Off As A Service",
+  "description": "Fork Off As A Service",
   "engines": {
     "node": "latest"
   },

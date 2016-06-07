@@ -33,7 +33,7 @@ describe "/retard", ->
         params:
           from: "TESTFROM"
 
-      message = "You Fucktard!"
+      message = "You Forktard!"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

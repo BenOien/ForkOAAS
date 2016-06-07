@@ -35,7 +35,7 @@ describe "/bus", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "Christ on a bendy-bus, #{req.params.name}, don't be such a fucking faff-arse."
+      message = "Christ on a bendy-bus, #{req.params.name}, don't be such a forking faff-arse."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

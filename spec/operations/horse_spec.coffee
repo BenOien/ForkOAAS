@@ -2,7 +2,7 @@ operation = require '../../lib/operations/horse'
 
 describe "/horse", ->
   it "should have the correct name", ->
-    expect(operation.name).toEqual('Fuck you and the horse you rode in on')
+    expect(operation.name).toEqual('Fork you and the horse you rode in on')
 
   it "should have the correct url", ->
     expect(operation.url).toEqual('/horse/:from')
@@ -33,7 +33,7 @@ describe "/horse", ->
         params:
           from: "TESTFROM"
 
-      message = "Fuck you and the horse you rode in on."
+      message = "Fork you and the horse you rode in on."
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

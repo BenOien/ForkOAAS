@@ -8,6 +8,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/nugget/:name/:from', (req, res) ->
-      message  = "Well #{req.params.name}, aren't you a shining example of a rancid fuck-nugget."
+      message  = "Well #{req.params.name}, aren't you a shining example of a rancid fork-nugget."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

@@ -7,6 +7,6 @@ module.exports =
 
   register: (app, output) ->
     app.get '/tucker/:from', (req, res) ->
-      message = "Come the fuck in or fuck the fuck off."
+      message = "Come the fork in or fork the fork off."
       subtitle = "- #{req.params.from}"
       output(req, res, message, subtitle)

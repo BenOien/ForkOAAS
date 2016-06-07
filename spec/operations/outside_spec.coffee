@@ -35,7 +35,7 @@ describe "/outside", ->
           name: "TESTNAME"
           from: "TESTFROM"
 
-      message = "#{req.params.name}, why don't you go outside and play hide-and-go-fuck-yourself?"
+      message = "#{req.params.name}, why don't you go outside and play hide-and-go-fork-yourself?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')

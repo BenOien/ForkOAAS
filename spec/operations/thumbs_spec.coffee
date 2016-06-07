@@ -39,6 +39,6 @@ describe "/thumbs", ->
       expect(output).toHaveBeenCalledWith(
         req,
         'RES',
-        "Who has two thumbs and doesn't give a fuck? TESTNAME.",
+        "Who has two thumbs and doesn't give a fork? TESTNAME.",
         '- TESTFROM'
       )

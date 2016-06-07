@@ -1,9 +1,10 @@
-
-
-
-
-
-
+-----------------------------------------------------------------------
+ForkOAAS - FOAAS edited for forks sake
+   This forking is not associated with original FOAAS authors below.
+   Forked by PrimeKang with only the tiniest of forks given to support.
+-----------------------------------------------------------------------
+   
+   
 Network Working Group                    T. Cully, A. Hodgkinson, et.al
 Request for Comments: DRAFT03213                           1 April 2016
 Category: Informational
@@ -34,8 +35,8 @@ Abstract
       1xx   Intermediate Responses, Protocol control
       2xx   OK
       3xx   Redirect
-      4xx   Client Error (You Fucked Up)
-      5xx   Server Error (I Fucked Up)
+      4xx   Client Error (You Forked Up)
+      5xx   Server Error (I Forked Up)
 
    Increasingly, home and consumer devices are being connected to the
    Internet and the need has arisen for a more colloquial and holistic
@@ -67,12 +68,12 @@ DRAFT03213                     HTTPSE/1.0                   1 April 2016
 
 2.1 HTTPSE return codes
 
-2.1.0 600 Fucking Good Enough
+2.1.0 600 Forking Good Enough
 
   The server deems its response sufficient. Further requests of the
   same nature may result in a 622 response.
 
-2.1.1 602 When I'm Good and Fucking Ready
+2.1.1 602 When I'm Good and Forking Ready
 
   Server MAY complete the request at a subsequent time. And then again,
   it may not bother its arse. The implication is not that the server is
@@ -103,7 +104,7 @@ DRAFT03213                     HTTPSE/1.0                   1 April 2016
 
   The client SHOULD NOT issue the request again to this server.
 
-2.1.5 610 Don’t Fucking Talk To Me
+2.1.5 610 Don’t Forking Talk To Me
 
   The client SHOULD NOT reissue the request under any circumstances as
   physical harm may result.
@@ -116,9 +117,9 @@ DRAFT03213                     HTTPSE/1.0                   1 April 2016
   The client SHOULD reissue the request with either: far less shit or
   something more interesting
 
-2.1.7 622 All The Fucks
+2.1.7 622 All The Forks
 
-  Server invites the client to consider the monumental amount of fucks it
+  Server invites the client to consider the monumental amount of forks it
   couldn't give regarding the request.
 
   The client SHOULD NOT issue the request again to this server.
@@ -149,7 +150,7 @@ DRAFT03213                     HTTPSE/1.0                   1 April 2016
    [URLI18N] Masinter, L., "Using UTF8 for non-ASCII Characters in
    Extended URIs" Work in Progress.
 
-5. Author's Details
+5. Non-forked (FOAAS) Author's Details
 
    Tom Cully
    email: tom@foaas.com

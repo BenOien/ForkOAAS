@@ -33,7 +33,7 @@ describe "/fascinating", ->
         params:
           from: "TESTFROM"
 
-      message = "Fascinating story, in what chapter do you shut the fuck up?"
+      message = "Fascinating story, in what chapter do you shut the fork up?"
       subtitle = "- #{req.params.from}"
 
       func(req,'RES')
