@@ -4,9 +4,9 @@
 
 ForkOAAS (Fork Off As A Service) - FOAAS for forks sake.
    Provides a modern, RESTful, scalable solution to the common problem of telling people to fork off.
-   Forked by PrimeKang with only the tiniest of forks given for supporting it.
+   Forked with only the tiniest of forks given for supporting it.
 
-Please see http://foaas.com for the parent project FOAAS.
+See http://foaas.com for the slightly less forked parent project: FOAAS.
 
 # Installation
 
